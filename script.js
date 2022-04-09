@@ -25,7 +25,12 @@ function mainMix(str) {
     if (surplusCharsStr.length > 2) {
     const halfSurplus = surplusCharsStr.slice(0, (surplusCharsStr.length / 2).toFixed() );
     const halfSurplusMirror = halfSurplus.split("").reverse().join("");
+
+    if (surplusCharsStr.length % 2 === 0) {
     surplusCharsStr = halfSurplusMirror.concat( surplusCharsStr.slice( (surplusCharsStr.length / 2).toFixed() * - 1 ) );
+    } else {
+    surplusCharsStr = halfSurplusMirror.concat( surplusCharsStr.slice( ((surplusCharsStr.length / 2).toFixed() - 1) * - 1 ) );
+    }
     }
 
     //собираем все в одну строку
