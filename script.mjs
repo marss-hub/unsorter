@@ -107,3 +107,5 @@ function getMixHalf(arr) {
   }
   return halfMixedStr;
 }
+
+export { mainMix, getArrangeDoubles, getOnes, getSurplus, getHalf, getMixHalf };

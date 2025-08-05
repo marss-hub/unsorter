@@ -1,0 +1,27 @@
+{
+  "name": "unsorter",
+  "version": "1.0.0",
+  "description": "Функция реализованная на JavaScript в рамках изучения основ строковых методов.",
+  "main": "script.mjs",
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marss-hub/unsorter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marss-hub/unsorter/issues"
+  },
+  "homepage": "https://github.com/marss-hub/unsorter#readme",
+  "devDependencies": {
+    "jest": "^30.0.5"
+  },
+  "jest": {
+    "transform": {}
+  }
+}
